@@ -102,6 +102,8 @@ class Register extends Component
 
         session()->flash('message', true);
 
+        $this->dispatchBrowserEvent('show-message-register');
+
         // Reset variables
         $this->name = NULL;
         $this->lastnameOne = NULL;

@@ -160,4 +160,10 @@
             </div>
         </div>
     </form>
+
+    <script>
+        window.addEventListener('show-message-register', event => {
+            alert("El usuario se ha creado correctamente.");
+        });
+    </script>
 </div>
