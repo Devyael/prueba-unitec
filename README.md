@@ -8,24 +8,32 @@
 </p>
 
 ## Project initialization
-- First step:
-Run: composer install
-Run: cp .env.example .env
-Run: php artisan key:generate
+- **First step:**
+- Run: composer install
+- Run: cp .env.example .env
+- Run: php artisan key:generate
 
-- Second step:
-Config: DB name into file .env
-Config: Your credentials
+- **Second step:**
+- Config: DB name into file .env
+- Config: Your credentials
 
-- Third step:
-Run: php artisan migrate --seed
+- **Third step:**
+- Run: php artisan migrate --seed
 
-- Fourth step:
-Run: npm install
-Run: npm run dev
+- **Fourth step:**
+- Run: npm install
+- Run: npm run dev
 
-- Fifth step:
-Run: php artisan serve
+- **Fifth step:**
+- Run: php artisan serve
+
+## Characteris
+- **Librarys:**
+- Livewire 2.x
+- Carbon
+- Vite
+- Laravel ui
+- Node > v18.x
 
 Congratulations, all it's okay or not?
 
