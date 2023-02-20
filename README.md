@@ -7,6 +7,28 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Project initialization
+- First step:
+Run: composer install
+Run: cp .env.example .env
+Run: php artisan key:generate
+
+- Second step:
+Config: DB name into file .env
+Config: Your credentials
+
+- Third step:
+Run: php artisan migrate --seed
+
+- Fourth step:
+Run: npm install
+Run: npm run dev
+
+- Fifth step:
+Run: php artisan serve
+
+Congratulations, all it's okay or not?
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
